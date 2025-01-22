@@ -9,14 +9,14 @@ export default function Header() {
   ];
 
   return (
-    <div className={`bg-sky-500 w-full h-16 flex items-center justify-between px-5`}>
+    <div className={`bg-sky-600 w-full h-16 flex items-center justify-between px-5`}>
       <div className="flex items-center gap-5">
         <Image
           src="/question.jpg"
           width={50}
           height={50}
           alt="Question"
-          className="rounded-full bg-sky-500"
+          className="rounded-full bg-sky-600"
         />
         {links.map((item) =>(
             <Link key={item.name} href={item.path} className="text-xs text-white font-semibold "> {item.name}</Link>

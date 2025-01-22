@@ -7,3 +7,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.w-question{
+    width: 250px;
+}
+.ellipsis {
+    white-space: nowrap;         
+    overflow: hidden;             
+    text-overflow: ellipsis;   
+}
+@media (min-width:790px){
+    .w-question{
+        width: 750px;
+    }
+}
