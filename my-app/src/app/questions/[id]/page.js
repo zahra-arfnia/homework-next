@@ -61,7 +61,7 @@ export default async function QuestionId({ params }) {
 
         <div className="flex flex-col gap-6 ">
           <p className="text-2xl">Answers :</p>
-          <input placeholder="write your answer ..." type="text" className="text-neutral-300 w-full bg-stone-100 h-24 px-3 border-b-4 border-sky-600"/>
+          <input placeholder="write your answer ..." type="text" className=" w-full bg-stone-100 h-24 px-3 border-b-4 border-sky-600"/>
           <button className="w-full h-7 bg-sky-600 text-white text-sm font-medium">SUBMIT</button>
         </div>
       </div>
